@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ======= Rave ======= -->
+	<RecipeDef>
+    <defName>EWCraft_Rave_Weapon</defName>
+    <label>make Rave</label>
+    <description>make an Rave.</description>
+    <jobString>making an Rave.</jobString>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+	<workAmount>20000</workAmount>
+	<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+	<recipeUsers>
+      <li>EnergyWorkshop</li>
+    </recipeUsers>
+    <ingredients>
+	  		<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+    </ingredients>
+		<products>
+			<EW_Rave>1</EW_Rave> <!-- === PRODUCT === -->
+		</products>
+	 <researchPrerequisite>EWBasic</researchPrerequisite>
+	<skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+  </RecipeDef>
+  
+</Defs>

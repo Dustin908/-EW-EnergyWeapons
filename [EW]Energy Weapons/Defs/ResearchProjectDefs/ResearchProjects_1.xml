@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--============== Manual ==============-->
+
+  <ResearchProjectDef>
+    <defName>EWBasic</defName>
+    <label>EW Basic</label>
+    <description>Unknown</description>
+	<baseCost>6000</baseCost>
+	<tab>Energy</tab>
+	<techLevel>Industrial</techLevel>
+	<researchViewY>0</researchViewY>  <!-- up and down-->
+	<researchViewX>0</researchViewX>  <!-- left and right -->
+	<prerequisites>
+	<li>Machining</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+</Defs>
